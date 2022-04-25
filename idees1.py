@@ -109,7 +109,7 @@ if __name__=='__main__':
             speak('Here are some headlines from the Times of India,Happy reading')
             time.sleep(6)
 
-        elif "open camera" in statement or "take a photo" in statement:
+        elif "camera" in statement or "take a photo" in statement:
             ec.capture(0,"robo camera","img.jpg")
 
 
